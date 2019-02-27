@@ -1,6 +1,6 @@
 # Holochain Idea Machine 4000
 
-A simple event app designed to get new users up, running and developing on Holochain
+A crowdsourced ideation app designed to generate ideas to solve challenges.
 
 ## Getting Started
 
@@ -10,17 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 You must have the Holochain 0.0.4-alpha command line tools installed.
 The instructions for that are found in the [quick start guide](https://developer.holochain.org/start.html#development-section). 
-
-### Developing Source Code
-
-On day 1, when running the code, we only had to run one command, in one terminal, to get our Holochain app running.
-
-That's because the production ready Holochain "Conductor" ran the services for both the UI files, and the DNA Instances.
-
-In order to do development on the source code, we need to run two separate services in two separate terminals instead.
-
-One for the UI development, and one for the DNA Instance. In today's playground, we give an example of running a UI development server, and making the UI files talk to the Holochain Conductor service, running on a separate port.
-
 
 ### Holochain DNA
 
@@ -50,9 +39,7 @@ Note that by default, `hc run` does not persist data writes to the file storage,
 
 Leave the terminal open for as long as you are doing development. Also note that `hc run` does not yet have live-reload 
 for file changes. In the future it will. What it is doing is serving API functions that access your DNA Instance over
-WebSockets for the UI to connect to. The API is defined as described here in articles [7.3 - 7.4.2 in the Guidebook](https://developer.holochain.org/guide/latest/json_rpc_interfaces.html). It's recommended that you read these. You can skip over the HTTP section if you wish, because we will be focusing on Websocket based APIs.
-
-In the other section of todays content, you will be learning about how to get started doing development of the DNA source code, and it's encouraged that you do that, before coming back and digging into modifying the Events Goer 4000 DNA.
+WebSockets for the UI to connect to. The API is defined as described here in articles [7.3 - 7.4.2 in the Guidebook](https://developer.holochain.org/guide/latest/json_rpc_interfaces.html). 
 
 ### UI With React
 
@@ -109,6 +96,7 @@ A huge acknowledgement to Pusher for providing an open source React slack clone 
 
 * **Willem Olding** - *Initial work* - [willemolding](https://github.com/willemolding)
 * **Connor Turland** - [Connoropolous](https://github.com/Connoropolous)
+* **Peter Newell** - [petersgrandadventure](https://github.com/petersgrandadventure)
 
 ## License
 
